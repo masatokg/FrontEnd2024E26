@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP呼び出しJS</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-10">
+        <div>
+            <h1>ユーザーリスト</h1>
+        </div>
+        <div><button id="btn_users" class="btn btn-primary">ユーザーリスト取得</button></div>
+        <div>一覧
+            <div id="userlist_area"></div>
+        </div>
+        <hr>
+        <div class="m-2">
+            <h1>ユーザーログイン</h1>
+            <div>mail: <input id="mail" type="text"></div>
+            <div>password: <input id="password" type="password"></div><br>
+            <div><button id="btn_login" class="btn btn-primary">ログイン</button></div>
+        </div>
+
+        <div class="m-2">
+            <h>ログイン結果</h>
+            <div id="login_result"></div>
+        </div>
+        <div>
+            <hr>
+            <h>生データ</h>
+            <div id="res"></div>
+        </div>
+    </div>
+
+    <!-- JS読み込み -->
+
+</body>
+
+</html>
